@@ -50,7 +50,7 @@ Yes!
 
 ## Which benefits will get `Sponsors`
 
-See [Patreon](http://patreon.com/nanoexpress) page for more information
+See [Patreon](https://patreon.com/dalisoft) page for more information
 
 
 
