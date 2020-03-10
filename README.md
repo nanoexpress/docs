@@ -4,6 +4,10 @@ description: Thanks for choosing nanoexpress!
 
 # Getting Started
 
+##  
+
+![nanoexpress logo](.gitbook/assets/png-512-black.png)
+
 ## Features
 
 * Express-compatible middleware layer
