@@ -2,6 +2,8 @@
 
 ## Credits
 
+Logo by [Shavkatoff](https://shavkatoff.com)
+
 {% hint style="info" %}
 Please support these projects with Star or Donate if you liked this project, because without these libraries this library wouldn't be existed
 {% endhint %}
