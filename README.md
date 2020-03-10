@@ -6,12 +6,14 @@ description: Thanks for choosing nanoexpress!
 
 ##  
 
-![nanoexpress logo](.gitbook/assets/png-512-black.png)
+![Nano-framework for Node.js powered by uWebSockets.js](.gitbook/assets/png-512-black.png)
 
 ## Features
 
 * Express-compatible middleware layer
+* Express-like API
 * [Faster](https://github.com/the-benchmarker/web-frameworks#results) than most Node.js backend frameworks
+* In-built `async` support without any of `HttpResponse` instance
 * In-built [Ajv](https://ajv.js.org) schema validator support
 * In-built [fast-json-stringify](https://github.com/fastify/fast-json-stringify) serialization support
 * In-built [Swagger](https://swagger.io) support
