@@ -10,13 +10,13 @@ description: Thanks for choosing nanoexpress!
 
 ## Features
 
-* Express-compatible middleware layer
+* Express-compatible middleware\* layer
 * Express-like API
 * [Faster](https://github.com/the-benchmarker/web-frameworks#results) than most Node.js backend frameworks
-* In-built `async` support without any of `HttpResponse` instance
-* In-built [Ajv](https://ajv.js.org) schema validator support
-* In-built [fast-json-stringify](https://github.com/fastify/fast-json-stringify) serialization support
-* In-built [Swagger](https://swagger.io) support
+* In-built `async` support without any of `HttpResponse` instance\*
+* In-built [Ajv](https://ajv.js.org)\* schema validator support
+* In-built [fast-json-stringify](https://github.com/fastify/fast-json-stringify)\* serialization support
+* In-built [Swagger](https://swagger.io)\* support
 * In-built WebSocket support
 * In-built Stream support
 * Packed with some common **middlewares**
@@ -169,5 +169,9 @@ app.listen(ports: Array<{ port: number, host?: string}>)
 
 {% hint style="info" %}
 Using `app.listen(PORT, '0.0.0.0')` is recommended to use for **Docker**, **Heroku** and **AWS**
+{% endhint %}
+
+{% hint style="danger" %}
+"**\***" - **pro-slim** version is different, for more information, please always click to **pro-slim** tab on any page you see within documentation
 {% endhint %}
 
