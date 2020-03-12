@@ -22,7 +22,7 @@ description: Thanks for choosing nanoexpress!
 * Packed with some common **middlewares**
 
 {% hint style="warning" %}
-Don't forget checking [License](license.md) page for more information
+Don't forget to check [License](license.md) page for more information about [License](license.md)
 {% endhint %}
 
 ## Installation
