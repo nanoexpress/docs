@@ -1,13 +1,9 @@
----
-description: Thanks for becoming sponsor...
----
-
 # Sponsors
 
-## Sponsors has access to
+## Sponsors will get free access to
 
-* Patreon vote power to features & future of project
 * Private Telegram all-before updates channel
+* Private Telegram votes channel
 * Private Telegram discussion chat
 
 ## Sponsors

@@ -21,6 +21,10 @@ description: Thanks for choosing nanoexpress!
 * In-built Stream support
 * Packed with some common **middlewares**
 
+{% hint style="warning" %}
+Don't forget checking [License](license.md) page for more information
+{% endhint %}
+
 ## Installation
 
 {% hint style="warning" %}
