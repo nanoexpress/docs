@@ -8,6 +8,10 @@ description: Thanks for choosing nanoexpress!
 
 ![Nano-framework for Node.js powered by uWebSockets.js](.gitbook/assets/png-512-black.png)
 
+{% hint style="info" %}
+We are on [ProductHunt](https://www.producthunt.com/posts/nanoexpress)! Please check it out
+{% endhint %}
+
 ## Features
 
 * Express-compatible middleware\* layer
