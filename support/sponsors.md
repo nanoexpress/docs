@@ -16,6 +16,8 @@ See [License](../license.md) page or [Patreon](https://www.patreon.com/dalisoft)
 
 ## Sponsors
 
+* [Victor Andrés](https://github.com/victor-a-rigacci)
+
 ### Platinum sponsors
 
 * [Sergey N](https://github.com/mrauhu)
