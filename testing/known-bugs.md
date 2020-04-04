@@ -28,10 +28,12 @@ There only one workaround to this
 
 ```javascript
 const corsPerRoute = cors();
-app.options('/my-route', corsPerRoute, () => {});
+app.options('/my-route', corsPerRoute);
 
 app.get('/my-route', corsPerRoute, (req, res) => {
   res.send('this route protected by your cors per-route config');
 });
 ```
+
+More info can be seen at [here](https://github.com/nanoexpress/nanoexpress/issues/87)
 
