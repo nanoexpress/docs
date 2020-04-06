@@ -26,6 +26,10 @@ All of these things are already implemented in **nanoexpress**
 
 I'm excluded in-box modules from initialization for performance reason
 
+{% hint style="warning" %}
+Currently we moved few middlewares to separate repository, soon all in-box middlewares will be moved to [@nanoexpress/middlewares](https://github.com/nanoexpress/middlewares) repository
+{% endhint %}
+
 #### How-to import
 
 ```javascript
