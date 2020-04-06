@@ -42,6 +42,8 @@ app.use(middlewares.passportInitialize()); // or app.use(passportInitialize());
 
 **Available middlewares**
 
+* **body-parser**
+* **static-serve**
 * **passport**
 * **swagger-ui**
 * **redoc**
