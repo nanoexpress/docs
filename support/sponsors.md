@@ -4,6 +4,10 @@ description: Thanks for becoming sponsor...
 
 # Sponsors
 
+{% hint style="info" %}
+You can support project development by becoming Sponsor via [Patreon](https://patreon.com/dalisoft) or [OpenCollective](https://opencollective.com/nanoexpress)
+{% endhint %}
+
 ## Sponsors has access to
 
 * Patreon vote power to features & future of project
