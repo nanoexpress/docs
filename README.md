@@ -90,7 +90,7 @@ $ yarn add nanoexpress/pro-slim
 * **pro** and **pro-slim** versions are paid for commercial products if sources are closed
 {% endhint %}
 
-Once you're installed, let's create first server
+As soon as you have installed the right package, let's create the first server
 
 {% tabs %}
 {% tab title="simple" %}
@@ -135,8 +135,8 @@ app.listen(3000);
 {% hint style="info" %}
 Difference between `pro` and `pro-slim`
 
-* **Slim**: Less polyfilled methods, Less functionality, High performance, Low resource usage
-* **Pro**: More polyfilled methods, More functionality, Mid-high performance, Mid resource usage
+* **Slim**: less polyfilled methods, less functionality, more performance, lower resources usage
+* **Pro**: more polyfilled methods, more functionality, still high performance, higher resources usage
 {% endhint %}
 
 {% hint style="warning" %}
@@ -144,7 +144,7 @@ Difference between `pro` and `pro-slim`
 {% endhint %}
 
 {% hint style="warning" %}
-`pro-slim` doesn't supports sync variant. You should use [`legacyConverter`](https://github.com/nanoexpress/pro-slim/blob/master/utils/legacy.js)utility provided by `pro-slim` version.
+`pro-slim` doesn't support sync variant. You should use [`legacyConverter`](https://github.com/nanoexpress/pro-slim/blob/master/utils/legacy.js) utility provided by `pro-slim` version.
 {% endhint %}
 
 {% code title="server.js" %}
@@ -163,7 +163,7 @@ app.listen(3000);
 
 ### Registering listener
 
-Registering listener ways are much more in **pro-slim** 
+You have much more ways for registering listener in **pro-slim** 
 
 ```typescript
 app.listen(PORT: number, host?: string, is_ssl_server?: boolean)
@@ -180,6 +180,6 @@ Using `app.listen(PORT, '0.0.0.0')` is recommended to use for **Docker**, **Hero
 {% endhint %}
 
 {% hint style="danger" %}
-"**\***" - **pro-slim** version is different, for more information, please always click to **pro-slim** tab on any page you see within documentation
+"**\***" - **pro-slim** version is different, for more information, please always click to **pro-slim** tab on any page you see within the documentation
 {% endhint %}
 
