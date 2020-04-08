@@ -53,5 +53,5 @@ If these solutions didn't work, try solutions from [here](https://serverfault.co
 
 ### Multi-thread / Cluster
 
-Clustering available on **Linux**, if your OS isn't Linux, you can try **Docker** as works on **Docker Linux** container
+Clustering is available on **Linux**, if your OS isn't Linux, you can try **Docker** as it works on **Docker Linux** container
 
