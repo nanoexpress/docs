@@ -15,11 +15,11 @@ List of libraries and frameworks:
 * [ajv](https://ajv.js.org/)
 * [cookie](https://github.com/jshttp/cookie#readme)
 
-And to other libraries which used to create this library and without these libraries wouldn't be possible to create this library.
+And to other libraries which are used to create this library and without these libraries it wouldn't be possible to create this library.
 
 ## Support
 
-### You can support this project by support me via [Patreon](https://www.patreon.com/dalisoft)
+### You can support this project by supporting me via [Patreon](https://www.patreon.com/dalisoft)
 
 * Star project
 * Fork project
