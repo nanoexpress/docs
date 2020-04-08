@@ -13,7 +13,7 @@ If you correctly and exactly define the schema, your app will be faster by 25-30
 {% hint style="info" %}
 On **free** version:
 
-For to be it's working, please install [Ajv](http://ajv.js.org/) module yourself, it's in our library in **peerDependencies**
+For its working, please install [Ajv](http://ajv.js.org/) module yourself, it's in our library in **peerDependencies**
 {% endhint %}
 
 ## Validation
@@ -35,7 +35,7 @@ For more information, please look at [Ajv docs](http://ajv.js.org/)
 {% endhint %}
 
 {% hint style="info" %}
-If you don't want use any or all \(except **body**\) of these validation method, please set it to **false** for performance reason
+If you don't want to use any or all \(except **body**\) of these validation methods, please set it to **false** for performance reason
 {% endhint %}
 
 ```javascript
@@ -65,17 +65,17 @@ app.listen(4000);
 ### Types of serialization
 
 {% hint style="info" %}
-For to be better performance and working serialization, please install [fast-json-stringify](https://github.com/fastify/fast-json-stringify) module yourself, it's in our library in **peerDependencies**
+For better performance and working serialization, please install [fast-json-stringify](https://github.com/fastify/fast-json-stringify) module yourself, it's in our library in **peerDependencies**
 {% endhint %}
 
 We use [fast-json-stringify](https://github.com/fastify/fast-json-stringify) under the hood for serialization and improving response time \(applies for **Array** and **Object**\)
 
 {% hint style="warning" %}
-If schema is wrong, error is not causing, it just removes that value from response which may be bad for your application, so, please be careful then typing schema
+If schema is wrong, error is not causing, it just removes that value from response which may be bad for your application, so, please be careful when typing schema
 {% endhint %}
 
 {% hint style="info" %}
-If **required** property was used and value isn't returned, server may crash or performance may drops by **6-8 times**, please, try to make sure everything is correct on your **schema**
+If **required** property was used and value doesn't return, server may crash or performance may be dropped by **6-8 times**, please, try to make sure everything is correct on your **schema**
 {% endhint %}
 
 **Response content types**: 
@@ -84,7 +84,7 @@ If **required** property was used and value isn't returned, server may crash or 
 * `response.HTTP_CODE`
 
 {% hint style="info" %}
-You can see discussion about this [here](https://github.com/fastify/fast-json-stringify/issues/169) and [here](https://github.com/fastify/fast-json-stringify/pull/172), you can submit PR with your solution. Your PR may helps to improve this library and other ~2K app performance
+You can see discussion about this [here](https://github.com/fastify/fast-json-stringify/issues/169) and [here](https://github.com/fastify/fast-json-stringify/pull/172), you can submit PR with your solution. Your PR may help to improve this library and other ~2K app performance
 {% endhint %}
 
 ```javascript
