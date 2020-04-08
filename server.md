@@ -5,7 +5,7 @@
 ### Simple version
 
 {% hint style="info" %}
-**Pro** version also shares same options
+**Pro** version also shares the same options
 {% endhint %}
 
 ```typescript
@@ -53,7 +53,7 @@ json_spaces: number
 * `app.head(req, res)`
 * `app.trace(req, res)`
 
-Special route are
+Special routes are
 
 * `app.ws(req, ws)`
 * `app.any(req, res)`
