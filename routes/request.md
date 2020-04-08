@@ -15,9 +15,9 @@ Request properties are unavailable for **pro-slim** version
 {% hint style="info" %}
 **Tips**
 
-* If you want  your app to be faster, please consider using **schemas**
+* If you want your app to be faster, please consider using **schemas**
 * If you do not use these properties, especially `body`, your app will response faster, because these properties take time parse
-* For **simple** and **pro** version `req.originalUrl`, `req.baseUrl` is not the same thing as `express` properties, just alias to `req.url`
+* For **simple** and **pro** version `req.originalUrl`, `req.baseUrl` is not the same as `express` properties, just alias to `req.url`
 {% endhint %}
 
 ## Examples
