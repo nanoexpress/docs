@@ -86,7 +86,7 @@ app.get('/user/:id/login', async (req, res) => {
 ### sendFile
 
 {% hint style="info" %}
-File should be on same path where JS file or you can try **Absolute path** for **stream/sendFile**
+File should be on the same path where JS file is or you can try **Absolute path** for **stream/sendFile**
 {% endhint %}
 
 ```javascript
