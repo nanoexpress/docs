@@ -5,11 +5,11 @@ Multi-threading/Clustering is available in Linux-only env
 {% endhint %}
 
 {% hint style="info" %}
-Docker may be a good place to get started with Clustering. But remember, on real Linux results always higher than server Docker container by 5-10%
+Docker may be a good place to get started with Clustering. But remember, on real Linux results are always higher than on server Docker container by 5-10%
 {% endhint %}
 
 {% hint style="info" %}
-In this benchmark all framework/libraries was used as basic example without any middleware, when you use any middlewares or you already have complex logic, try optimize them to improve performance as this can slow down RPS. We cannot guarantee any performance improvements on complex backend applications
+In this benchmark all framework/libraries was used as basic example without any middleware, when you use any middlewares or you already have complex logic, try to optimize them to improve performance as this can slow down RPS. We cannot guarantee any performance improvements on complex backend applications
 {% endhint %}
 
 **Benchmark command**: `wrk -t2 -d2` or `wrk TEST_URL`
@@ -43,7 +43,7 @@ You can see live benchmark results at [here](https://github.com/the-benchmarker/
 * Env: Linux
 * Clustering: available \(on 16 threads\)
 
-Note: more than 4-cores doesn't used at unknown reason, but should improve perf even not marginally
+Note: more than 4-cores aren't used at unknown reason, but it should improve performance even marginally
 
 | Library | Req/sec | Memory |
 | :--- | :--- | :--- |
@@ -56,14 +56,14 @@ Note: more than 4-cores doesn't used at unknown reason, but should improve perf 
 
 ## Why
 
-and when use this framework for my backend application?
+and when to use this framework for my backend application?
 
-1. When your want reduce server cost for WebSocket and/or WebRTC real-time comminucation and file-exchange \(maybe stream, video, photo, etc\) servers.
+1. When you want to reduce server cost for WebSocket and/or WebRTC real-time comminucation and file-exchange \(maybe stream, video, photo, etc\) servers.
 2. When your server has low RAM memory
 3. Your logic is easy and simple
 4. Startups which looks for faster startup
-5. You want try out how it works?!
-6. You don't want spend a lot for servers
+5. You want to try out how it works?!
+6. You don't want to spend a lot for servers
 
 Example for HTTP
 
