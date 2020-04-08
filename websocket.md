@@ -16,7 +16,7 @@ See more about options [here](https://unetworking.github.io/uWebSockets.js/gener
 {% endhint %}
 
 {% hint style="warning" %}
-**Pro** version also shares same options
+**Pro** version also shares the same options
 {% endhint %}
 
 ### Basic example
@@ -34,9 +34,9 @@ app.ws('/', (req, ws) => {
 ### Raw example
 
 {% hint style="warning" %}
-Any polyfilled methods unavailable here, But performance will be faster due of less layer cost. 
+Any polyfilled methods are unavailable here, But performance will be faster due to less layer cost. 
 
-This option only for **free** and **pro** versions
+This option is only for **free** and **pro** versions
 {% endhint %}
 
 ```javascript
@@ -50,7 +50,7 @@ app.ws('/', { isRaw: true }, (req, ws) => {
 {% hint style="info" %}
 This option auto-parses JSON-strings such as **Array** and **Objects** which may be helpful.
 
-This option only for **free** and **pro** versions
+This option is only for **free** and **pro** versions
 {% endhint %}
 
 ```javascript
