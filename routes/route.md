@@ -1,15 +1,15 @@
 ---
-description: This feature available only for PRO and PRO Slim versions
+description: This feature is available only for PRO and PRO Slim versions
 ---
 
 # Route
 
 {% hint style="warning" %}
-This feature available only for PRO and PRO Slim versions
+This feature is available only for PRO and PRO Slim versions
 {% endhint %}
 
 {% hint style="danger" %}
-Don't forget return **HttpResponse** from route
+Don't forget to return to **HttpResponse** from the route
 {% endhint %}
 
 {% hint style="info" %}
@@ -29,7 +29,7 @@ route.get('/', async () => 'hello world');
 ```
 
 {% hint style="warning" %}
-To Route worked properly, first initialize via `app.use(routerInstance)` then register your routes
+if you want Route to work properly, first initialize via `app.use(routerInstance)` then registrate your routes
 {% endhint %}
 
 ### Async route
