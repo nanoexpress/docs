@@ -15,9 +15,9 @@ Request properties are unavailable for **pro-slim** version
 {% hint style="info" %}
 **Tips**
 
-* If you want to your app be faster, please consider using **schemas**
-* If you not using these properties, especially `body`, your app will response faster, because these properties takes time parse
-* For **simple** and **pro** version `req.originalUrl`, `req.baseUrl` is not same as `express` properties, just alias to `req.url`
+* If you want  your app to be faster, please consider using **schemas**
+* If you do not use these properties, especially `body`, your app will response faster, because these properties take time parse
+* For **simple** and **pro** version `req.originalUrl`, `req.baseUrl` is not the same thing as `express` properties, just alias to `req.url`
 {% endhint %}
 
 ## Examples
@@ -77,7 +77,7 @@ app.post('/user', async (req) => {
 {% hint style="warning" %}
 Only on **Free** version!
 
- For to be working properly [cookie](https://github.com/jshttp/cookie) parsing, please install [cookie](https://github.com/jshttp/cookie) module yourself, it's in our library **peerDependencies**
+ For working properly [cookie](https://github.com/jshttp/cookie) parsing, please install [cookie](https://github.com/jshttp/cookie) module yourself, it's in our library **peerDependencies**
 {% endhint %}
 
 ```javascript
@@ -94,7 +94,7 @@ app.post('/user', async (req) => {
 ### [Upload](https://github.com/nanoexpress/nanoexpress/blob/master/examples/upload-file.js) example
 
 {% hint style="info" %}
-This examples uses [express-fileupload](https://github.com/richardgirges/express-fileupload) middleware as example
+This example uses [express-fileupload](https://github.com/richardgirges/express-fileupload) middleware as example
 {% endhint %}
 
 ```javascript
