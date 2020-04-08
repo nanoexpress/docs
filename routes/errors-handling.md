@@ -1,7 +1,7 @@
 # Errors handling
 
 {% hint style="info" %}
-Node.js v13.5+ new argument params helps you trace warnings and errors
+Node.js v13.5+ new argument params help you trace warnings and errors
 
 * `--trace-uncaught`
 * `--trace-warnings`
