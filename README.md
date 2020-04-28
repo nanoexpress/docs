@@ -4,9 +4,7 @@ description: Thanks for choosing nanoexpress!
 
 # Getting Started
 
-##  
-
-![Nano-framework for Node.js powered by uWebSockets.js](.gitbook/assets/png-512-black.png)
+![Nano-framework for Node.js powered](.gitbook/assets/png-512-black.png)
 
 {% hint style="info" %}
 We are on [ProductHunt](https://www.producthunt.com/posts/nanoexpress) and [StackShare](https://stackshare.io/companies/nanoexpress)! Please check it out
@@ -29,31 +27,35 @@ We are on [ProductHunt](https://www.producthunt.com/posts/nanoexpress) and [Stac
 Don't forget to check [License](license.md) page for more information about [License](license.md)
 {% endhint %}
 
+{% hint style="warning" %}
+Code is provided as-is, do not expect or demand **free** support, warranty or debugging
+{% endhint %}
+
 ## Installation
 
 {% hint style="warning" %}
-Requires Node.js v12.6+.
+Requires Node.js v12.16+.
 
-On Node.js v12.6+ and Node.js &lt;13 for ES Modules requires argument `--experimental-modules` to be working
+On Node.js v12.16+ and Node.js &lt;13 for ES Modules requires argument `--experimental-modules` to be working
 {% endhint %}
 
 You can install via `npm`
 
 {% tabs %}
 {% tab title="simple" %}
-```
+```text
 $ npm i nanoexpress
 ```
 {% endtab %}
 
 {% tab title="pro" %}
-```
+```text
 $ npm i nanoexpress-pro
 ```
 {% endtab %}
 
 {% tab title="pro-slim" %}
-```
+```text
 $ npm i nanoexpress/pro-slim
 ```
 {% endtab %}
@@ -69,20 +71,20 @@ $ yarn add nanoexpress
 {% endtab %}
 
 {% tab title="pro" %}
-```
+```text
 $ yarn add nanoexpress-pro
 ```
 {% endtab %}
 
 {% tab title="pro-slim" %}
-```
+```text
 $ yarn add nanoexpress/pro-slim
 ```
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
-**pro** and **pro-slim** versions are licensed under GPL-3.0 license. 
+**pro** and **pro-slim** versions are licensed under GPL-3.0 license.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -140,7 +142,7 @@ Difference between `pro` and `pro-slim`
 {% endhint %}
 
 {% hint style="warning" %}
- `pro-slim` version supports only native Node.js ES Module powered backends. 
+`pro-slim` version supports only native Node.js ES Module powered backends.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -163,7 +165,7 @@ app.listen(3000);
 
 ### Registering listener
 
-You have much more ways for registering listener in **pro-slim** 
+You have much more ways for registering listener in **pro-slim**
 
 ```typescript
 app.listen(PORT: number, host?: string, is_ssl_server?: boolean)
