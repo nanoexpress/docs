@@ -16,7 +16,7 @@ Don't forget to return to **HttpResponse** from the route
 Using many middlewares may slow response performance
 {% endhint %}
 
-### Route-middleware route
+## Route-middleware route
 
 ```javascript
 import Route from 'nanoexpress-pro/src/Route';
@@ -32,15 +32,15 @@ route.get('/', async () => 'hello world');
 if you want Route to work properly, first initialize via `app.use(routerInstance)` then registrate your routes
 {% endhint %}
 
-### Async route
+## Async route
 
-#### Basic Async example
+### Basic Async example
 
 ```javascript
 app.get('/', async () => ({ status: 'success' }));
 ```
 
-#### DB example
+### DB example
 
 ```javascript
 app.get('/', async (req, res) => {
@@ -50,7 +50,7 @@ app.get('/', async (req, res) => {
 });
 ```
 
-#### Basic example
+### Basic example
 
 ```javascript
 app.get('/', async (req, res) => {
@@ -58,7 +58,7 @@ app.get('/', async (req, res) => {
 });
 ```
 
-#### JSON example
+### JSON example
 
 ```javascript
 app.post('/', (req, res) => {

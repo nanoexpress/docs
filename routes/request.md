@@ -77,7 +77,7 @@ app.post('/user', async (req) => {
 {% hint style="warning" %}
 Only on **Free** version!
 
- For working properly [cookie](https://github.com/jshttp/cookie) parsing, please install [cookie](https://github.com/jshttp/cookie) module yourself, it's in our library **peerDependencies**
+For working properly [cookie](https://github.com/jshttp/cookie) parsing, please install [cookie](https://github.com/jshttp/cookie) module yourself, it's in our library **peerDependencies**
 {% endhint %}
 
 ```javascript

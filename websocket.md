@@ -34,7 +34,7 @@ app.ws('/', (req, ws) => {
 ### Raw example
 
 {% hint style="warning" %}
-Any polyfilled methods are unavailable here, But performance will be faster due to less layer cost. 
+Any polyfilled methods are unavailable here, But performance will be faster due to less layer cost.
 
 This option is only for **free** and **pro** versions
 {% endhint %}
@@ -82,6 +82,4 @@ app.ws(
 {% hint style="info" %}
 Using **schema** option may improve safety by validating messages and gives you auto-parsing of messages
 {% endhint %}
-
-
 

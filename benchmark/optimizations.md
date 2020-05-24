@@ -32,7 +32,7 @@ Compiler will try to use `new Function` _\(on all versions\)_ to execute, but if
 * `req.headers["foo"]`
 * `const { foo } = req.headers`
 
-Example, 
+Example,
 
 ```javascript
 app.get((req, res) => {

@@ -57,34 +57,6 @@ app.setErrorHandler(
 {% endtabs %}
 
 {% api-method method="get" host="http://localhost:8000" path="/error-route" %}
-{% api-method-summary %}
-Error handling example
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Example of error handled request
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=500 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-{
-  "status": "error",
-  "status_code": 500,
-  "message": "oops"
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
 ## Not found handler
 
@@ -115,33 +87,6 @@ app.setNotFoundHandler(async (req: HttpRequest, res: HttpResponse): Promise<Http
 {% endtabs %}
 
 {% api-method method="get" host="http://localhost:8000" path="/anyUrl" %}
-{% api-method-summary %}
-Not found example
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Example of any not found error
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-{
-  "code": 404,
-  "message": "You entered wrong url"
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
 ## Validation error handler
 
@@ -157,11 +102,11 @@ app.setValidationErrorHandler((errors: AjvValidationErrors[], req: HttpRequest, 
 
 {% api-method method="get" host="http://locahost:8000" path="/validate-error" %}
 {% api-method-summary %}
-Validation error example
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Example of body validation error
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -179,7 +124,7 @@ bar
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "errors": {
     "type": "errors",

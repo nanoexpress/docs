@@ -4,30 +4,21 @@ description: Thanks for becoming sponsor...
 
 # Sponsors
 
-{% hint style="info" %}
-You can support project development by becoming Sponsor via [Patreon](https://patreon.com/dalisoft) or [OpenCollective](https://opencollective.com/nanoexpress)
-{% endhint %}
-
-## Sponsors has access to
-
-* Patreon vote power to features & future of project
-* Private Telegram all-before updates channel
-* Private Telegram discussion chat
+* You can support project via [OpenCollective](https://opencollective.com/nanoexpress)
+* You can support project via becoming sponsor via [Patreon](https://patreon.com/dalisoft) 
+* You can support project via one-off donation via [Etherum](https://etherscan.io/address/0x966234411ef14b36069005af26bd3f43a76a9983)
 
 See [License](../license.md) page or [Patreon](https://www.patreon.com/dalisoft) for more information which benefits **Sponsors** will get
 
 ## Sponsors
 
-## Sponsors
+## Thanks
 
 * [Victor Andrés](https://github.com/victor-a-rigacci)
 
-### Platinum sponsors
+### Gold sponsors
 
 * [Sergey N](https://github.com/mrauhu)
-
-### Ultra sponsors
-
 * [Yaroslav Dobzhanskij](https://github.com/yarsky-tgz)
 
 ### 

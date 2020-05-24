@@ -1,5 +1,10 @@
 # Support
 
+## Special thanks to services
+
+* [JetBrains](https://www.jetbrains.com) - for providing to me free applications to develop this library, making my development easier, faster and efficient
+* [BrowserStack](https://www.browserstack.com) - for providing to me free access to many browsers for my other projects \(e.g. es6-tween, Forceify\)
+
 ## Credits
 
 Logo by [Shavkatoff](https://shavkatoff.com)

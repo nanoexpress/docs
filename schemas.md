@@ -13,7 +13,7 @@ If you correctly and exactly define the schema, your app will be faster by 25-30
 {% hint style="info" %}
 On **free** version:
 
-For  its working, please install [Ajv](http://ajv.js.org/) module yourself, it's in our library in **peerDependencies**
+For its working, please install [Ajv](http://ajv.js.org/) module yourself, it's in our library in **peerDependencies**
 {% endhint %}
 
 ## Validation
@@ -78,7 +78,7 @@ If schema is wrong, error is not causing, it just removes that value from respon
 If **required** property was used and value isn't returned, server may crash or performance may be dropped by **6-8 times**, please, try to make sure everything is correct on your **schema**
 {% endhint %}
 
-**Response content types**: 
+**Response content types**:
 
 * `response`
 * `response.HTTP_CODE`
