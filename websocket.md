@@ -15,10 +15,6 @@
 See more about options [here](https://unetworking.github.io/uWebSockets.js/generated/interfaces/websocketbehavior.html)
 {% endhint %}
 
-{% hint style="warning" %}
-**Pro** version also shares the same options
-{% endhint %}
-
 ### Basic example
 
 ```javascript
