@@ -22,11 +22,22 @@ See more about options [here](https://unetworking.github.io/uWebSockets.js/gener
 ### Basic example
 
 ```javascript
-app.ws('/', (req, ws) => {
-  console.log('Connected');
+app.ws('/ws', (req, res) => {
+  console.log('Connecting...');
 
-  ws.on('message', (message) => {
-    console.log('Message received', message);
+  res.on('connection', (ws) => {
+    console.log('Connected');
+
+    ws.on('message', (msg) => {
+      console.log('Message received', msg);
+      ws.send(msg);
+    });
+    ws.on('close', (code, message) => {
+      console.log('Connection closed', { code, message });
+    });
+  });
+  res.on('upgrade', () => {
+    console.log('Connection upgrade');
   });
 });
 ```
@@ -35,13 +46,13 @@ app.ws('/', (req, ws) => {
 
 {% hint style="warning" %}
 Any polyfilled methods are unavailable here, But performance will be faster due to less layer cost.
-
-This option is only for **free** and **pro** versions
 {% endhint %}
 
 ```javascript
-app.ws('/', { isRaw: true }, (req, ws) => {
-  // do something...
+app.ws('/', { isRaw: true }, (req, res) => {
+  res.on('connection', (ws) => {
+    // do something...
+  });
 });
 ```
 
@@ -49,8 +60,6 @@ app.ws('/', { isRaw: true }, (req, ws) => {
 
 {% hint style="info" %}
 This option auto-parses JSON-strings such as **Array** and **Objects** which may be helpful.
-
-This option is only for **free** and **pro** versions
 {% endhint %}
 
 ```javascript
@@ -65,7 +74,8 @@ app.ws(
       }
     }
   },
-  (req, ws) => {
+  (req, res) => {
+  res.on('connection', (ws) => {
     ws.on('message', ({ type, action }) => {
       ws.send(
         JSON.stringify({
@@ -74,6 +84,7 @@ app.ws(
           action
         })
       );
+    });
     });
   }
 );
