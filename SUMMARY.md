@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
+* [PRO is now FREE](pro-is-now-free.md)
 * [Server](server.md)
 * [Middlewares](middlewares.md)
 * [Routes](routes/README.md)
