@@ -3,7 +3,7 @@
 ## Simple version
 
 {% hint style="info" %}
-**Pro** version also shares same middlewares
+**Pro/Pro-Slim** version shares same middlewares
 {% endhint %}
 
 ### Built-in Middlewares
