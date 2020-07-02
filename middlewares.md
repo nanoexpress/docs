@@ -22,31 +22,13 @@ All of these things are already implemented in **nanoexpress**
 | [express-serializer](https://github.com/MediaComem/express-serializer) | Layer level | [fast-json-stringify](https://github.com/fastify/fast-json-stringify) |
 | [express-ajv](https://bitbucket.org/netgenes/express-ajv) | Layer level | [ajv](https://ajv.js.org/) |
 
-### In-box Middlewares
+### Middlewares
 
 I'm excluded in-box modules from initialization for performance reason
 
 {% hint style="warning" %}
 Currently we moved few middlewares to separate repository, soon all in-box middlewares will be moved to [@nanoexpress/middlewares](https://github.com/nanoexpress/middlewares) repository
 {% endhint %}
-
-#### How-to import
-
-```javascript
-import { middlewares } from 'nanoexpress/packed';
-// or import { passportInitialize } from 'nanoexpress/packed/middlewares';
-
-const app = nanoexpress();
-app.use(middlewares.passportInitialize()); // or app.use(passportInitialize());
-```
-
-**Available middlewares**
-
-* **body-parser**
-* **static-serve**
-* **passport**
-* **swagger-ui**
-* **redoc**
 
 ### Tested Express/Connect like Middlewares
 
@@ -79,9 +61,7 @@ app.use((req, res, next) => {
 });
 ```
 
-#### You may look to [Passport](https://github.com/nanoexpress/nanoexpress/blob/master/examples/passport.js) example
-
 {% hint style="info" %}
-Error which comes from Middleware automacilly will be handled by **nanoexpress**
+Error which comes from **Async** Middleware automacilly will be handled by **nanoexpress**
 {% endhint %}
 
