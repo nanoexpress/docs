@@ -4,10 +4,6 @@ description: This feature is available only for PRO and PRO Slim versions
 
 # Route
 
-{% hint style="warning" %}
-This feature is available only for PRO and PRO Slim versions
-{% endhint %}
-
 {% hint style="danger" %}
 Don't forget to return to **HttpResponse** from the route
 {% endhint %}

@@ -2,18 +2,8 @@
 
 > ## Swagger documentation generated based on schemas
 
-{% hint style="warning" %}
-This feature isn't available for **pro-slim** version
-{% endhint %}
-
 {% hint style="info" %}
 If you correctly and exactly define the schema, your app will be faster by 25-30% which is good and validation support will be out-of-the-box
-{% endhint %}
-
-{% hint style="info" %}
-On **free** version:
-
-For its working, please install [Ajv](http://ajv.js.org/) module yourself, it's in our library in **peerDependencies**
 {% endhint %}
 
 ## Validation
@@ -63,10 +53,6 @@ app.listen(4000);
 ## Serialization
 
 ### Types of serialization
-
-{% hint style="info" %}
-For better performance and working serialization, please install [fast-json-stringify](https://github.com/fastify/fast-json-stringify) module yourself, it's in our library in **peerDependencies**
-{% endhint %}
 
 We use [fast-json-stringify](https://github.com/fastify/fast-json-stringify) under the hood for serialization and improving response time \(applies for **Array** and **Object**\)
 
