@@ -8,13 +8,14 @@ description: Thanks for becoming sponsor...
 * You can support project via becoming sponsor via [Patreon](https://patreon.com/dalisoft) 
 * You can support project via one-off donation via [Etherum](https://etherscan.io/address/0x966234411ef14b36069005af26bd3f43a76a9983)
 
-See [License](../license.md) page or [Patreon](https://www.patreon.com/dalisoft) for more information which benefits **Sponsors** will get
+See [License]() page or [Patreon](https://www.patreon.com/dalisoft) for more information which benefits **Sponsors** will get
 
 ## Sponsors
 
 ## Thanks
 
 * [Victor Andrés](https://github.com/victor-a-rigacci)
+* Lemico
 
 ### Gold sponsors
 

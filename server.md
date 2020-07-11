@@ -2,12 +2,6 @@
 
 ## Options
 
-### Simple version
-
-{% hint style="info" %}
-**Pro** version also shares the same options
-{% endhint %}
-
 ```typescript
 {
 swagger: SwaggerObject,
@@ -21,25 +15,6 @@ console: CustomConsole {
     log: function,
     error: function
   }
-}
-```
-
-### Pro Slim version
-
-```typescript
-{
-isSSL: boolean,
-https: {
-    key_file_name: string,
-    cert_file_name: string,
-    passphrase: string,
-    separateServer: number | boolean = 443
-  },
-console: CustomConsole {
-    log: function,
-    error: function
-  },
-json_spaces: number
 }
 ```
 

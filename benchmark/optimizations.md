@@ -6,14 +6,6 @@ Try to call `EXPERIMENTAL_FASTCALL=1 node server.js`
 
 See [issue](https://github.com/uNetworking/uWebSockets.js/issues/267) for more information
 
-## Request dumping or freeze
-
-{% hint style="info" %}
-This optimization is only for **pro-slim** version
-{% endhint %}
-
-Try to call `node --expose-gc server.js`
-
 ## Compiler optimization
 
 Our compiler is in `Alpha` stage, so any PR or fix are welcome. Compiler improves performance for basic requests which were performed by benchmarks. But you can optimize your requests by doing some basic things. Let's go, there will be few tweaks to read.

@@ -15,8 +15,6 @@ Example, `node --trace-uncaught server.js`
 Only **async** route functions and middlewares are handled
 {% endhint %}
 
-{% tabs %}
-{% tab title="simple & pro" %}
 ```typescript
 app.setErrorHandler(
   (err: Error, req: HttpRequest, res: HttpResponse): HttpResponse => {
@@ -30,61 +28,16 @@ app.setErrorHandler(
   }
 );
 ```
-{% endtab %}
-
-{% tab title="pro-slim" %}
-```typescript
-interface ErrorHandlerResponse {
-  status!: 'success' | 'error';
-  status_code?: number; // response status code in `int` format
-  stack_trace?: string; // error stack trace
-  message!: string;
-  code?: string; // auth_failed, bad_request, ...
-}
-app.setErrorHandler(
-  (err: Error): ErrorHandlerResponse => {
-    if (checkSomething(err)) {
-      return {
-        status: 'error',
-        status_code: 500,
-        message: 'oops'
-      }
-    }
-  }
-);
-```
-{% endtab %}
-{% endtabs %}
 
 {% api-method method="get" host="http://localhost:8000" path="/error-route" %}
 
 ## Not found handler
 
-{% tabs %}
-{% tab title="simple" %}
-```typescript
-app.setNotFoundHandler((res: HttpResponse, req: HttpRequest): HttpResponse => {
-    return res.send({ code: 404, message: 'You entered wrong url' });
-});
-```
-{% endtab %}
-
-{% tab title="pro" %}
 ```typescript
 app.setNotFoundHandler((req: HttpRequest, res: HttpResponse): HttpResponse => {
     return res.send({ code: 404, message: 'You entered wrong url' });
 });
 ```
-{% endtab %}
-
-{% tab title="pro-slim" %}
-```typescript
-app.setNotFoundHandler(async (req: HttpRequest, res: HttpResponse): Promise<HttpResponse> => {
-    return res.send({ code: 404, message: 'You entered wrong url' });
-});
-```
-{% endtab %}
-{% endtabs %}
 
 {% api-method method="get" host="http://localhost:8000" path="/anyUrl" %}
 

@@ -6,10 +6,9 @@ See [here](https://unetworking.github.io/uWebSockets.js/generated/interfaces/htt
 
 ## Implemented methods
 
-{% tabs %}
-{% tab title="simple" %}
 * send
-* json _\(same as send, but for compatibility we keep this method\)_
+* pipe
+* json \(same as send, but for compatibility we keep this method\)
 * sendFile
 * redirect
 * status
@@ -27,37 +26,6 @@ See [here](https://unetworking.github.io/uWebSockets.js/generated/interfaces/htt
 * writeHeaders
 * type
 * header
-{% endtab %}
-
-{% tab title="pro" %}
-All methods of **free** version, plus
-
-* pipe
-{% endtab %}
-
-{% tab title="pro-slim" %}
-{% hint style="warning" %}
-Cookie methods are unavailable for **pro-slim** version
-{% endhint %}
-
-* pipe
-* send
-* sendFile
-* compressStream
-* redirect
-* status
-* writeHead
-* setHeader
-* getHeader
-* hasHeader
-* removeHeader
-* setHeaders
-* writeHeaderValues
-* writeHeaders
-* type
-* header
-{% endtab %}
-{% endtabs %}
 
 ## Examples
 
