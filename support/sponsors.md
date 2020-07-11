@@ -15,7 +15,6 @@ See [License](../license.md) page or [Patreon](https://www.patreon.com/dalisoft)
 ## Thanks
 
 * [Victor Andrés](https://github.com/victor-a-rigacci)
-* Lemico
 
 ### Gold sponsors
 
