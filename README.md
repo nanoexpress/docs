@@ -24,6 +24,10 @@ We are on [ProductHunt](https://www.producthunt.com/posts/nanoexpress) and [Stac
 * Packed with some common **middlewares**
 
 {% hint style="warning" %}
+Don't forget to check [License](license.md) page for more information about [License](license.md)
+{% endhint %}
+
+{% hint style="warning" %}
 Code is provided as-is, do not expect or demand **free** support, warranty or debugging
 {% endhint %}
 
@@ -35,20 +39,86 @@ Requires Node.js v12.16+.
 On Node.js v12.16+ and Node.js &lt;13 for ES Modules requires argument `--experimental-modules` to be working
 {% endhint %}
 
-You can install 
+You can install via `npm`
 
+{% tabs %}
+{% tab title="simple" %}
 ```text
 $ npm i nanoexpress
-# or
+```
+{% endtab %}
+
+{% tab title="pro" %}
+```text
+$ npm i nanoexpress-pro
+```
+{% endtab %}
+
+{% tab title="pro-slim" %}
+```text
+$ npm i nanoexpress/pro-slim
+```
+{% endtab %}
+{% endtabs %}
+
+or via `yarn`
+
+{% tabs %}
+{% tab title="simple" %}
+```bash
+$ yarn add nanoexpress
+```
+{% endtab %}
+
+{% tab title="pro" %}
+```text
 $ yarn add nanoexpress-pro
 ```
+{% endtab %}
+
+{% tab title="pro-slim" %}
+```text
+$ yarn add nanoexpress/pro-slim
+```
+{% endtab %}
+{% endtabs %}
+
+{% hint style="info" %}
+**pro** and **pro-slim** versions are licensed under GPL-3.0 license.
+{% endhint %}
 
 {% hint style="warning" %}
 * This library does not support **HTTP2**!
+* **pro** and **pro-slim** versions are paid for commercial products if sources are closed
 {% endhint %}
 
 As soon as you have installed the right package, let's create the first server
 
+{% tabs %}
+{% tab title="simple" %}
+{% code title="server.js" %}
+```javascript
+import nanoexpress from 'nanoexpress';
+
+const app = nanoexpress();
+
+app.get('/', (req, res) => {
+    return res.send({ status: 'ok' });
+});
+
+app.listen(3000);
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="pro" %}
+{% hint style="warning" %}
+For CommonJS please use `cjs` suffix, example
+
+`const nanoexpress = require('nanoexpress-pro/cjs')`
+{% endhint %}
+
+{% code title="server.js" %}
 ```javascript
 import nanoexpress from 'nanoexpress-pro';
 
@@ -60,8 +130,58 @@ app.get('/', (req, res) => {
 
 app.listen(3000);
 ```
+{% endcode %}
+{% endtab %}
+
+{% tab title="pro-slim" %}
+{% hint style="info" %}
+Difference between `pro` and `pro-slim`
+
+* **Slim**: less polyfilled methods, less functionality, more performance, lower resources usage
+* **Pro**: more polyfilled methods, more functionality, still high performance, higher resources usage
+{% endhint %}
+
+{% hint style="warning" %}
+`pro-slim` version supports only native Node.js ES Module powered backends.
+{% endhint %}
+
+{% hint style="warning" %}
+`pro-slim` doesn't support sync variant. You should use [`legacyConverter`](https://github.com/nanoexpress/pro-slim/blob/master/utils/legacy.js) utility provided by `pro-slim` version.
+{% endhint %}
+
+{% code title="server.js" %}
+```javascript
+import nanoexpress from '@nanoexpress/pro-slim';
+
+const app = nanoexpress();
+
+app.get('/', async () => {
+    return ({ status: 'ok' });
+});
+
+app.listen(3000);
+```
+{% endcode %}
+
+### Registering listener
+
+You have much more ways for registering listener in **pro-slim**
+
+```typescript
+app.listen(PORT: number, host?: string, is_ssl_server?: boolean)
+app.listen(PORT: number[], host?: string, is_ssl_server?: boolean)
+app.listen(host: string, PORT: number, is_ssl_server?: boolean)
+app.listen(host: string, PORT: number[], is_ssl_server?: boolean)
+app.listen(ports: Array<{ port: number, host?: string}>)
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 Using `app.listen(PORT, '0.0.0.0')` is recommended to use for **Docker**, **Heroku** and **AWS**
+{% endhint %}
+
+{% hint style="danger" %}
+"**\***" - **pro-slim** version is different, for more information, please always click to **pro-slim** tab on any page you see within the documentation
 {% endhint %}
 

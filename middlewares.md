@@ -1,5 +1,11 @@
 # Middlewares
 
+## Simple version
+
+{% hint style="info" %}
+**Pro/Pro-Slim** version shares same middlewares
+{% endhint %}
+
 ### Built-in Middlewares
 
 Built-in middlewares implemented at layer-level for performance reason and enables automacilly when needed, not always

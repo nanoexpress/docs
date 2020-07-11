@@ -8,14 +8,16 @@
 * body
 * cookies
 
-
+{% hint style="warning" %}
+Request properties are unavailable for **pro-slim** version
+{% endhint %}
 
 {% hint style="info" %}
 **Tips**
 
 * If you want your app to be faster, please consider using **schemas**
-* If you do not use these properties, especially `body`, your app will response faster, because these properties parse takes time
-* `req.originalUrl`, `req.baseUrl` is not the same as `express` properties, just alias to `req.url`
+* If you do not use these properties, especially `body`, your app will response faster, because these properties take time parse
+* For **simple** and **pro** version `req.originalUrl`, `req.baseUrl` is not the same as `express` properties, just alias to `req.url`
 {% endhint %}
 
 ## Examples
@@ -55,6 +57,10 @@ app.get('/user', async (req) => {
 
 ### Body example
 
+{% hint style="info" %}
+**Bonus!** nanoexpress handles body-parsing for you very fast
+{% endhint %}
+
 ```javascript
 app.post('/user', async (req) => {
   const { username, password } = req.body;
@@ -67,6 +73,12 @@ app.post('/user', async (req) => {
 ```
 
 ### Cookies example
+
+{% hint style="warning" %}
+Only on **Free** version!
+
+For working properly [cookie](https://github.com/jshttp/cookie) parsing, please install [cookie](https://github.com/jshttp/cookie) module yourself, it's in our library **peerDependencies**
+{% endhint %}
 
 ```javascript
 app.post('/user', async (req) => {
