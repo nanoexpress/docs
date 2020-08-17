@@ -40,14 +40,7 @@ But there will be changes in rules:
 #### Sponsors \(250$+/m\)
 
 * Free optimizations tips & tricks
-
-#### Supporters \(10$+/m\)
-
 * Discussion chat and help with some of your bugs
-
-#### Donaters
-
-* Thanks message from Patreon from me. Thank you
 
 ## See [issue](https://github.com/nanoexpress/pro/issues/44) for more information
 
