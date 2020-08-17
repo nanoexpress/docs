@@ -22,8 +22,6 @@ And to other libraries which are used to create this library and without these l
 
 ## Support
 
-### You can support this project by supporting me via [Patreon](https://www.patreon.com/dalisoft)
-
 * Star project
 * Fork project
 * Add Tests to Project
