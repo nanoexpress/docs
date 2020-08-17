@@ -8,7 +8,7 @@ PRO version now under Apache-2.0 license. This project is now deprecated and doe
 
 But there will be changes in rules:
 
-**Project will be provided** _**as-is**_ **without any support nor warranty**
+**Project will be provided** _**as-is**_ **without any support nor warranty for free users**
 
 ### Issues
 
