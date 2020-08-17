@@ -23,6 +23,7 @@ August sponsorship was refunded due of stopping get new donations
 ### Contributor and sponsors
 
 * [Sergey N](https://github.com/mrauhu) \(Gold sponsor and active contributor\)
+* [@vera-design](https://github.com/vera-design) \(active contributor\)
 
 ### Thanks
 
