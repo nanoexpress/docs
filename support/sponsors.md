@@ -4,8 +4,6 @@ description: Thanks for becoming sponsor...
 
 # Sponsors
 
-## I do not want get new sponsors yet
-
 ## Sponsors
 
 ### Services
