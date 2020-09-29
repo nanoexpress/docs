@@ -4,7 +4,9 @@ description: This page contains changes to license and rules
 
 # PRO is now FREE
 
-PRO version now under Apache-2.0 license. This project is now deprecated and does not get updates. Only PRO version gets bug-fixes and improvements
+## PRO-ESM \(default PRO\) is FREE, not PRO-Slim version!
+
+PRO version now under Apache-2.0 license.
 
 But there will be changes in rules:
 
@@ -25,22 +27,18 @@ But there will be changes in rules:
 
 ### For premium users
 
-#### Enterprise users \(1000$+/m\)
+#### Enterprise users & Investors
 
 * Free optimization tips & tricks
 * Help with hosting and debugging of performance slow-downs
 * Special feature specially made for you
 * Dedicated support for teaching your team for better understanding **nanoexpress**
 
-#### Commercial users \(500$+/m\)
+#### Previous Sponsors
 
 * Free optimizations tips & tricks
 * Help with hosting and bug-fixes related to **nanoexpress** quickly
-
-#### Sponsors \(250$+/m\)
-
 * Free optimizations tips & tricks
-* Discussion chat and help with some of your bugs
 
 ## See [issue](https://github.com/nanoexpress/pro/issues/44) for more information
 

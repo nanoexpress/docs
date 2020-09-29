@@ -10,11 +10,7 @@ description: Thanks for choosing nanoexpress!
 We are on [ProductHunt](https://www.producthunt.com/posts/nanoexpress) and [StackShare](https://stackshare.io/companies/nanoexpress)! Please check it out
 {% endhint %}
 
-## Deprecation note
-
-This project currently inactive and deprecated, but it doesn't mean in future i do not update it.
-
-I'm always updating dependencies and security fixes as get time, so project can be treat as temporarily suspended. No SPONSORS will be anymore, only Enterprise and Paid users will be and i keep right keep these prople names private.
+## Coming updates and latest news at [here](https://t.me/nanoexpress)
 
 ## Features
 
