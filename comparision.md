@@ -8,6 +8,7 @@ Performance masured in [this](https://github.com/nanoexpress/nanoexpress-vps-ben
 | Stability | High | High / Highest on **pro-slim** | High |
 | Built-in Middleware support | + | Partially | - |
 | Built-in Middlewares eco-system | 9/10 | 7/10 | - |
+| Prod-ready middlewares | + | + | - |
 | Built-in Error handler | - | + | - |
 | Built-in Async support | - | + | + |
 | Built-in WebSocket support | - | + | + |
