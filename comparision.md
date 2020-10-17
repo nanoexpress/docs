@@ -19,5 +19,5 @@ Performance masured in [this](https://github.com/nanoexpress/nanoexpress-vps-ben
 | Support | Forums / Issues | Paid author support  | Paid author support |
 | Warranty | - | Enterprise users only | - |
 
-> 1 - nanoexpress and it's middlewares with open-source licenses are free, but there will be paid `defines` and `middlewares` in future or available already
+> 1 - nanoexpress and it's some middlewares are free, but there will be paid `defines` and `middlewares` in future or available already
 
