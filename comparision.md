@@ -5,7 +5,7 @@ Performance masured in [this](https://github.com/nanoexpress/nanoexpress-vps-ben
 | Features / Framework  | expressjs | nanoexpress | uWebSockets.js |
 | :--- | :--- | :--- | :--- |
 | Performance | ~50K/s | ~350K/s | ~370K/s |
-| Stability | High | High / Highest on pro-slim | High |
+| Stability | High | High / Highest on **pro-slim** | High |
 | Built-in Middleware support | + | Partially | - |
 | Built-in Middlewares eco-system | 9/10 | 7/10 | - |
 | Built-in Error handler | - | + | - |
@@ -13,7 +13,7 @@ Performance masured in [this](https://github.com/nanoexpress/nanoexpress-vps-ben
 | Built-in WebSocket support | - | + | + |
 | Built-in Request Validation | Middleware required | + | - |
 | Built-in Request Serialization | - | + | - |
-| Security | 8/10 \(due of dependecy\) | 9/10 | 9/10 |
+| Security | 8/10 | 9/10 \| 10/10 on **pro-slim** | 9/10 |
 | Extendable | 8/10 | 9/10 | 7/10 |
 | Ease-of-use | 8/10 | 9/10 | 7/10 |
 | License | MIT | Apache-2.0 / GPL-3.0 for pro-slim | Apache-2.0 |
