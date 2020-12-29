@@ -15,7 +15,7 @@ Using many middlewares may slow response performance
 ## Route-middleware route
 
 ```javascript
-import Route from 'nanoexpress-pro/src/Route';
+import Route from 'nanoexpress/src/Route';
 
 const route = new Route();
 

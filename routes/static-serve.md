@@ -9,7 +9,7 @@ You can try [@expressjs/serve-static](https://github.com/expressjs/serve-static)
 {% tabs %}
 {% tab title="CommonJS" %}
 ```javascript
-const nanoexpress = require('nanoexpress-pro');
+const nanoexpress = require('nanoexpress');
 const staticServe = require('@nanoexpress/middlewares/static/cjs');
 const path = require('path');
 
@@ -23,7 +23,7 @@ app.listen(8000);
 
 {% tab title="ES Module" %}
 ```javascript
-import nanoexpress from 'nanoexpress-pro';
+import nanoexpress from 'nanoexpress';
 import staticServe from '@nanoexpress/middlewares/static';
 import path from 'path';
 

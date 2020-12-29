@@ -67,9 +67,9 @@ and when to use this framework for my backend application?
 
 Example for HTTP
 
-> 5$ DigitalOcean plan can handle 1000 HTTP Requests per day easily and without any slowdowns
+> 5$ DigitalOcean plan can handle ~1M HTTP Requests per day easily and without any slowdowns
 
 or for WebSocket
 
-> 5$ DigitalOcean plan can handle ~20K Downloads per month in torrent server easily. Source [here](https://hackernoon.com/%C2%B5ws-as-your-next-websocket-library-d34209686357)
+> 5$ DigitalOcean plan can handle ~10M Downloads per month in torrent server easily
 

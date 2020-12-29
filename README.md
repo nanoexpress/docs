@@ -42,7 +42,7 @@ You can install
 ```text
 $ npm i nanoexpress
 # or
-$ yarn add nanoexpress-pro
+$ yarn add nanoexpress
 ```
 
 {% hint style="warning" %}
@@ -52,7 +52,7 @@ $ yarn add nanoexpress-pro
 As soon as you have installed the right package, let's create the first server
 
 ```javascript
-import nanoexpress from 'nanoexpress-pro';
+import nanoexpress from 'nanoexpress';
 
 const app = nanoexpress();
 
