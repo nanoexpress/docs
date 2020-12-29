@@ -7,6 +7,6 @@ When new commits are pushed or new PR arrived, GitHub Actions runs the tests.
 If you want to run tests locally, you can run this command
 
 ```text
-$ npm run test
+$ yarn test
 ```
 
