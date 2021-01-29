@@ -17,11 +17,13 @@ August sponsorship was refunded due of stopping get new donations
 
 * [Victor Andrés](https://github.com/victor-a-rigacci) & Lemico \(Donation\)
 * [Yaroslav Dobzhanskij](https://github.com/yarsky-tgz) \(Platinum and Gold tiers\)
+* [Sergey N](https://github.com/mrauhu) \(Gold tier\)
 
-### Contributor and sponsors
+### Contributors
 
-* [Sergey N](https://github.com/mrauhu) \(Gold sponsor and active contributor\)
-* [@vera-design](https://github.com/vera-design) \(active contributor\)
+* [@vera-design](https://github.com/vera-design) \(contributor\)
+* [Sergey N](https://github.com/mrauhu) \(contributor\)
+* See [here](https://github.com/nanoexpress/nanoexpress/graphs/contributors)
 
 ### Thanks
 
