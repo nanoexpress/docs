@@ -33,9 +33,7 @@ You can see live benchmark results at [here](https://github.com/the-benchmarker/
 | Library | Req/sec | Memory |
 | :--- | :--- | :--- |
 | uWebSockets.js | ~70K | ~4Mb |
-| nanoexpress Pro Slim | ~70K | ~8Mb |
-| nanoexpress Pro | ~60K | ~18Mb |
-| nanoexpress | ~55K | ~12Mb |
+| nanoexpress | ~60K | ~18Mb |
 | Raw HTTP | ~35K | ~29Mb |
 | express | ~25K | ~43Mb |
 
@@ -52,9 +50,7 @@ Note: more than 4-cores aren't used at unknown reason, but it should improve per
 | Library | Req/sec | Memory |
 | :--- | :--- | :--- |
 | uWebSockets.js | ~400K | ~14Mb |
-| nanoexpress Pro Slim | ~400K | ~19Mb |
 | nanoexpress Pro | ~350K | ~26Mb |
-| nanoexpress | ~300K | ~22Mb |
 | Raw HTTP | ~250K | ~40Mb |
 | express | ~200K | ~70Mb |
 
@@ -71,7 +67,7 @@ and when to use this framework for my backend application?
 
 Example for HTTP
 
-> 5$ DigitalOcean plan can handle ~1M HTTP Requests per day easily and without any slowdowns
+> 5$ DigitalOcean plan can handle ~500K HTTP Requests per day easily and without any slowdowns
 
 or for WebSocket
 
