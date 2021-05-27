@@ -18,24 +18,17 @@ We are on [ProductHunt](https://www.producthunt.com/posts/nanoexpress) and [Stac
 * Express-like API
 * [Faster](https://github.com/the-benchmarker/web-frameworks#results) than most Node.js backend frameworks
 * In-built `async` support without any of `HttpResponse` instance\*
-* In-built [Ajv](https://ajv.js.org)\* schema validator support
-* In-built [fast-json-stringify](https://github.com/fastify/fast-json-stringify)\* serialization support
-* In-built [Swagger](https://swagger.io)\* support
+* [Ajv](https://ajv.js.org)\* schema validator support
+* [fast-json-stringify](https://github.com/fastify/fast-json-stringify)\* serialization support
+* [Swagger](https://swagger.io)\* support
 * In-built WebSocket support
 * In-built Stream support
-* Packed with some common **middlewares**
 
 {% hint style="warning" %}
 Code is provided as-is, do not expect or demand **free** support, warranty or debugging
 {% endhint %}
 
 ## Installation
-
-{% hint style="warning" %}
-Requires Node.js v12.16+.
-
-On Node.js v12.16+ and Node.js &lt;13 for ES Modules requires argument `--experimental-modules` to be working
-{% endhint %}
 
 You can install 
 

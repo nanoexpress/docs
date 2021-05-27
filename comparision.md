@@ -63,31 +63,33 @@ Performance masured in [this](https://github.com/nanoexpress/nanoexpress-vps-ben
     <tr>
       <td style="text-align:left">Built-in Request Validation</td>
       <td style="text-align:left">Middleware required</td>
-      <td style="text-align:left">+</td>
+      <td style="text-align:left">See <a href="https://github.com/nanoexpress/middlewares">here</a>
+      </td>
       <td style="text-align:left">-</td>
     </tr>
     <tr>
       <td style="text-align:left">Built-in Request Serialization</td>
       <td style="text-align:left">-</td>
-      <td style="text-align:left">+</td>
+      <td style="text-align:left">See <a href="https://github.com/nanoexpress/middlewares">here</a>
+      </td>
       <td style="text-align:left">-</td>
     </tr>
     <tr>
       <td style="text-align:left">Security</td>
       <td style="text-align:left">8/10</td>
-      <td style="text-align:left">9/10</td>
-      <td style="text-align:left">9/10</td>
+      <td style="text-align:left">10/10</td>
+      <td style="text-align:left">10/10</td>
     </tr>
     <tr>
       <td style="text-align:left">Extendable</td>
       <td style="text-align:left">8/10</td>
-      <td style="text-align:left">9/10</td>
-      <td style="text-align:left">7/10</td>
+      <td style="text-align:left">10/10</td>
+      <td style="text-align:left">8/10</td>
     </tr>
     <tr>
       <td style="text-align:left">Ease-of-use</td>
       <td style="text-align:left">8/10</td>
-      <td style="text-align:left">9/10</td>
+      <td style="text-align:left">8/10</td>
       <td style="text-align:left">7/10</td>
     </tr>
     <tr>
@@ -127,7 +129,7 @@ Performance masured in [this](https://github.com/nanoexpress/nanoexpress-vps-ben
     <tr>
       <td style="text-align:left">Warranty</td>
       <td style="text-align:left">-</td>
-      <td style="text-align:left">Contact me</td>
+      <td style="text-align:left">-</td>
       <td style="text-align:left">-</td>
     </tr>
   </tbody>
