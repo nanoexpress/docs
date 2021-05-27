@@ -60,7 +60,7 @@ app.get('/', async (req, res) => {
 app.post('/', (req, res) => {
   const { body } = req;
 
-  res.send({ status: 'ok' });
+  return res.send({ status: 'ok' });
 });
 ```
 

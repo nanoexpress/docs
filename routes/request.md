@@ -79,29 +79,5 @@ app.post('/user', async (req) => {
 });
 ```
 
-### [Upload](https://github.com/nanoexpress/nanoexpress/blob/master/examples/upload-file.js) example
-
-{% hint style="info" %}
-This example uses [express-fileupload](https://github.com/richardgirges/express-fileupload) middleware as example
-{% endhint %}
-
-```javascript
-const fileUpload = require('express-fileupload');
-const path = require('path');
-
-app.use(fileUpload({ useTempFiles: true }));
-app.post('/', (req, res) => {
-  console.debug('files', req.files);
-  console.debug('body', req.body);
-
-  req.files.file.mv(path.join(__dirname, '/uploads/file.jpg'), (err) => {
-    if (err) {
-      res.status(500);
-      return res.send(err);
-    }
-
-    return res.send('File uploaded!');
-  });
-});
-```
+### [Upload](https://github.com/nanoexpress/middlewares/tree/master/packages/formidable) example
 

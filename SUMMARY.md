@@ -5,7 +5,7 @@
 * [Server](server.md)
 * [Middlewares](middlewares.md)
 * [Routes](routes/README.md)
-  * [Untitled](routes/untitled.md)
+  * [Static Serve](https://github.com/nanoexpress/middlewares/tree/master/packages/static)
   * [Request](routes/request.md)
   * [Response](routes/response.md)
   * [Route](routes/route.md)

@@ -35,7 +35,7 @@ See [here](https://unetworking.github.io/uWebSockets.js/generated/interfaces/htt
 app.get('/is_logged', async (req, res) => {
   const status = res.hasCookie('userId') ? 'success' : 'error';
 
-  res.send({ status });
+  return res.send({ status });
 });
 ```
 
