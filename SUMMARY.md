@@ -15,10 +15,8 @@
 * [Docker / Linux](docker-linux.md)
 * [Optimizations](optimizations.md)
 * [Benchmarks](https://github.com/the-benchmarker/web-frameworks)
-* [Testing](testing/README.md)
-  * [Known bugs](testing/known-bugs.md)
-* [Support](support/README.md)
-  * [Sponsors](support/sponsors.md)
-  * [FAQ](support/faq.md)
+* [Known bugs](known-bugs.md)
+* [Sponsors](sponsors.md)
+* [FAQ](faq.md)
 * [License](https://github.com/nanoexpress/pro/blob/master/LICENSE)
 
