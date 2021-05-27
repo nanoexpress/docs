@@ -1,5 +1,9 @@
 # Schemas
 
+{% hint style="danger" %}
+## This page was deprecating! Please use [Schemator](https://github.com/nanoexpress/middlewares/tree/master/packages/schemator) middleware
+{% endhint %}
+
 > ## Swagger documentation generated based on schemas
 
 {% hint style="info" %}
@@ -68,10 +72,6 @@ If **required** property was used and value isn't returned, server may crash or 
 
 * `response`
 * `response.HTTP_CODE`
-
-{% hint style="info" %}
-You can see discussion about this [here](https://github.com/fastify/fast-json-stringify/issues/169) and [here](https://github.com/fastify/fast-json-stringify/pull/172), you can submit PR with your solution. Your PR may help to improve this library and other ~2K app performance
-{% endhint %}
 
 ```javascript
 app.get(

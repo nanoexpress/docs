@@ -2,15 +2,6 @@
 
 ## Options
 
-```javascript
-{
-    maxPayloadLength: number = 16 * 1024 * 1024,
-    idleTimeout: number = 120,
-    compression: number = 0,
-    maxBackpressure: number = 0
-}
-```
-
 {% hint style="info" %}
 See more about options [here](https://unetworking.github.io/uWebSockets.js/generated/interfaces/websocketbehavior.html)
 {% endhint %}
@@ -45,10 +36,25 @@ Any polyfilled methods are unavailable here, But performance will be faster due 
 {% endhint %}
 
 ```javascript
-app.ws('/', { isRaw: true }, (req, res) => {
-  res.on('connection', (ws) => {
-    // do something...
-  });
+app.ws('/', {
+  /* Options */
+  compression: uWS.SHARED_COMPRESSOR,
+  maxPayloadLength: 16 * 1024 * 1024,
+  idleTimeout: 10,
+  /* Handlers */
+  open: (ws) => {
+    console.log('A WebSocket connected!');
+  },
+  message: (ws, message, isBinary) => {
+    /* Ok is false if backpressure was built up, wait for drain */
+    let ok = ws.send(message, isBinary);
+  },
+  drain: (ws) => {
+    console.log('WebSocket backpressure: ' + ws.getBufferedAmount());
+  },
+  close: (ws, code, message) => {
+    console.log('WebSocket closed');
+  }
 });
 ```
 
@@ -61,15 +67,6 @@ This option auto-parses JSON-strings such as **Array** and **Objects** which may
 ```javascript
 app.ws(
   '/',
-  {
-    schema: {
-      type: 'object',
-      properties: {
-        type: { type: 'string' },
-        action: { type: 'string' }
-      }
-    }
-  },
   (req, res) => {
   res.on('connection', (ws) => {
     ws.on('message', ({ type, action }) => {
@@ -82,7 +79,16 @@ app.ws(
       );
     });
     });
-  }
+  },
+  {
+    schema: {
+      type: 'object',
+      properties: {
+        type: { type: 'string' },
+        action: { type: 'string' }
+      }
+    }
+  },
 );
 ```
 
