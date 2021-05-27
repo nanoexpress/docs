@@ -4,12 +4,6 @@
 If you use **alpine** or **slim** version of **node** images, some errors may happen and you can fix with this minimal guide
 {% endhint %}
 
-## Requires
-
-* git
-
-## Errors
-
 ### For `git` missing error
 
 ```text
