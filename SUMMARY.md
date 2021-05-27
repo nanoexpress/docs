@@ -5,7 +5,7 @@
 * [Server](server.md)
 * [Middlewares](middlewares.md)
 * [Routes](routes/README.md)
-  * [Static serve](routes/static-serve.md)
+  * [Untitled](routes/untitled.md)
   * [Request](routes/request.md)
   * [Response](routes/response.md)
   * [Route](routes/route.md)
