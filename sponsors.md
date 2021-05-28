@@ -8,8 +8,11 @@ description: Thanks for becoming sponsor...
 
 ### Services
 
-* [JetBrains](https://www.jetbrains.com/) - for providing to me IDE for free to develop this library, making my development easier, faster and efficient
-* [BrowserStack](https://www.browserstack.com/) - for providing to me free access to many browsers for my other projects \(e.g. es6-tween, Forceify\)
+![BrowserStack - https://www.browserstack.com](.gitbook/assets/header-logo%20%281%29.svg)
+
+![JetBrains - https://www.jetbrains.com](.gitbook/assets/jetbrains-variant-3.svg)
+
+![MacStadium - https://www.macstadium.com](.gitbook/assets/5c019d917bba312af7553b49_macstadium-developerlogo.png)
 
 ### Previous sponsors
 
