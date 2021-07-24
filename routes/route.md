@@ -14,6 +14,8 @@ Using many middlewares may slow response performance
 
 ## Route-middleware route
 
+{% tabs %}
+{% tab title="ESM" %}
 ```javascript
 import Route from 'nanoexpress/src/Route';
 
@@ -23,6 +25,20 @@ app.use(route);
 
 route.get('/', async () => 'hello world');
 ```
+{% endtab %}
+
+{% tab title="CJS" %}
+```javascript
+const Route = require('nanoexpress/cjs/Route');
+
+const route = new Route();
+
+app.use(route);
+
+route.get('/', async () => 'hello world');
+```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 if you want Route to work properly, first initialize via `app.use(routerInstance)` then registrate your routes
