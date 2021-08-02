@@ -14,6 +14,8 @@ description: Thanks for becoming sponsor...
 
 ![MacStadium - https://www.macstadium.com](.gitbook/assets/5c019d917bba312af7553b49_macstadium-developerlogo.png)
 
+## [PAW - The most advanced API tool for Mac](https://paw.cloud)
+
 ### Previous sponsors
 
 August sponsorship was refunded due of stopping get new donations
