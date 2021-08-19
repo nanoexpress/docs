@@ -1,6 +1,6 @@
 # Comparison
 
-Performance measured in [this](https://github.com/nanoexpress/nanoexpress-vps-bench#machine) machine
+Performance measured on [this](https://github.com/nanoexpress/nanoexpress-vps-bench#machine) machine
 
 <table>
   <thead>
