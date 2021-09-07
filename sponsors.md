@@ -18,7 +18,7 @@ description: Thanks for becoming sponsor...
 
 ### Previous sponsors
 
-August sponsorship was refunded due of stopping get new donations
+August 2020 sponsorship was refunded due of stopping get new donations
 
 * [Victor Andrés](https://github.com/victor-a-rigacci) & Lemico \(Donation\)
 * [Yaroslav Dobzhanskij](https://github.com/yarsky-tgz) \(Platinum and Gold tiers\)
