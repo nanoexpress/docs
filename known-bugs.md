@@ -2,7 +2,7 @@
 
 ## HTTP Pipeline not working properly
 
-See[ this issue](https://github.com/nanoexpress/pro/issues/12)
+See [this issue](https://github.com/nanoexpress/nanoexpress/issues/39)
 
 ## Routes cannot be used more than once
 
@@ -17,4 +17,3 @@ Yes, you should read **documentation** carefully.
 Please don't forget return `HttpResponse` from route and/or middleware.
 
 Example, `return res.send(...)` instead of `res.send(...)` at last line of route
-
