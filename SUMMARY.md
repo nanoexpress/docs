@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Comparision](comparision.md)
 * [Server](server.md)
 * [Middlewares](middlewares.md)
 * [Routes](routes/README.md)
@@ -19,4 +18,3 @@
 * [Sponsors](sponsors.md)
 * [FAQ](faq.md)
 * [License](https://github.com/nanoexpress/pro/blob/master/LICENSE)
-

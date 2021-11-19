@@ -29,7 +29,20 @@ app.setErrorHandler(
 );
 ```
 
-{% api-method method="get" host="http://localhost:8000" path="/error-route" %}
+{% swagger baseUrl="http://localhost:8000" path="/error-route" method="get" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
 
 ## Not found handler
 
@@ -39,7 +52,20 @@ app.setNotFoundHandler((req: HttpRequest, res: HttpResponse): HttpResponse => {
 });
 ```
 
-{% api-method method="get" host="http://localhost:8000" path="/anyUrl" %}
+{% swagger baseUrl="http://localhost:8000" path="/anyUrl" method="get" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="" type="string" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200" description="" %}
+```
+```
+{% endswagger-response %}
+{% endswagger %}
 
 ## Validation error handler
 
@@ -53,31 +79,17 @@ app.setValidationErrorHandler((errors: AjvValidationErrors[], req: HttpRequest, 
 });
 ```
 
-{% api-method method="get" host="http://locahost:8000" path="/validate-error" %}
-{% api-method-summary %}
+{% swagger baseUrl="http://locahost:8000" path="/validate-error" method="get" summary="" %}
+{% swagger-description %}
 
-{% endapi-method-summary %}
+{% endswagger-description %}
 
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="foo" type="string" required=false %}
+{% swagger-parameter in="body" name="foo" type="string" %}
 bar
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=400 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```text
+{% swagger-response status="400" description="" %}
+```
 {
   "errors": {
     "type": "errors",
@@ -89,8 +101,5 @@ bar
   }
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}
