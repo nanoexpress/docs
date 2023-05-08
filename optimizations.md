@@ -1,17 +1,11 @@
 # Optimizations
 
-## Performance improvement by ~25%
-
-Try to call `EXPERIMENTAL_FASTCALL=1 node server.js`
-
-See [issue](https://github.com/uNetworking/uWebSockets.js/issues/267) for more information
-
 ## Compiler optimization
 
 Our compiler is in `Alpha` stage, so any PR or fix are welcome. Compiler improves performance for basic requests which were performed by benchmarks. But you can optimize your requests by doing some basic things. Let's go, there will be few tweaks to read.
 
 {% hint style="danger" %}
-Compiler will try to use `new Function` _\(on all versions\)_ to execute, but if fails, try to use `eval` _\(only on PRO version\)_ to improve performance. If in your route you use some `global` functions or instances, `eval` will be used, so **SECURITY** isn't guaranteed
+Compiler will try to use `new Function` _(on all versions)_ to execute, but if fails, try to use `eval` _(only on PRO version)_ to improve performance. If in your route you use some `global` functions or instances, `eval` will be used, so **SECURITY** isn't guaranteed
 {% endhint %}
 
 {% hint style="info" %}
@@ -49,4 +43,3 @@ app.get(({ headers }, res) => {
 ## Improve error stack trace logs
 
 Try to call `node --enable-source-maps server.js`
-
