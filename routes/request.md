@@ -8,8 +8,6 @@
 * body
 * cookies
 
-
-
 {% hint style="info" %}
 **Tips**
 
@@ -79,16 +77,4 @@ app.post('/user', async (req) => {
 });
 ```
 
-### Get IP example
-
-```javascript
-app.get('/api/ip',(req,res) => {
-    res.send({
-        ip: req.getIP(),
-        proxiedIP: req.getProxiedIP() // for use in production behind a reverse proxy
-    });
-});
-```
-
 ### [Upload](https://github.com/nanoexpress/middlewares/tree/master/packages/formidable) example
-

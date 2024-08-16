@@ -1,7 +1,3 @@
----
-description: This feature is available only for PRO and PRO Slim versions
----
-
 # Route
 
 {% hint style="danger" %}
@@ -79,4 +75,3 @@ app.post('/', (req, res) => {
   return res.send({ status: 'ok' });
 });
 ```
-
