@@ -49,6 +49,8 @@ Use `precompile` option to cache the route with entire response. Any `await` and
 {% hint style="warning" %}
 Caveats of this kind of response:
 
+* Does not support dynamic values
+* Does not support dynamic input like `any property` of `HttpRequest`
 * Does not support complex methods such as `send`, `json`
 * Does not support any other types other than primitives (String, Number, Boolean only)
 * Any `await` fires once while compiling
